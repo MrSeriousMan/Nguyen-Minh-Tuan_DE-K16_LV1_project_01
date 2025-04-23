@@ -3,7 +3,7 @@ INPUT="main_dataset.csv"
 
 # 1. Tìm đạo diễn có nhiều phim nhất
 
-echo "📌 Tìm đạo diễn có nhiều phim nhất..."
+echo " Tìm đạo diễn có nhiều phim nhất..."
 echo "director,count" > top_director.csv
 
 awk -F',' '
@@ -17,7 +17,7 @@ END {
 ' "$INPUT" | sort -t',' -k2,2nr | head -n 1 >> top_director.csv
 
 # 2. Tìm diễn viên đóng nhiều phim nhất
-echo "📌 Tìm diễn viên đóng nhiều phim nhất..."
+echo "Tìm diễn viên đóng nhiều phim nhất..."
 echo "actor,count" > top_actor.csv
 
 awk -F',' '
