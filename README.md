@@ -1,4 +1,4 @@
-# Nguyễn Minh Tuấn_DE K16_LV1_project_01 
+
 ## 1🎬 Movie Dataset Analysis – Bash Scripting Project
 
 This project uses Bash scripting to process and analyze a real-world movie dataset from TMDB.  
